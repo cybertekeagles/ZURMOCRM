@@ -1,16 +1,17 @@
 Feature: Project creation 
 
-Scenario: Creating a Project 
+Scenario Outline: Creating a Project 
 	Given User logged into the Zurmo 
 	And User clicks on Project on the menu bar 
-	And User needs to provide following information to create a project 
-		|Name|
-		|Description	|
-		|Accounts|	
-		|Contacts|
-		|Status|	
+	And User needs to provide following information  "<prefix>" "<description>" "<lastName>" "<phoneNumber>" "<title>" 
 	Then User clicks save to create a project 
+     Then user logout from application 
 	
+	Examples: 
+		|prefix    |	description  | 	Accounts	        |	Contacts | Opportunities |
+		|Cybertek  | New project	 | CybertekEagles	| 7733334400 |using cucumber |
+		
+		
 Scenario: Check Created Project 
 	Given User logged into the Zurmo 
 	Then User searchs project by project name 
@@ -19,14 +20,14 @@ Scenario: Check Created Project
 		|edit|
 		|delete|
 		|clone|
-   Then user logout from application				
+	Then user logout from application 
 	
 	
-		
-		
-		
-		
-		
-		
-		
-		
+	
+	
+	
+	
+	
+	
+	
+	
