@@ -13,10 +13,27 @@ And User should see the following functionalities
 |Subscribe|						
 |Merge|						
 Then User have ability to click all functionalities
+	
 
-Scenario: Creation advanced search option		
-When User click add criteria should see the field in alphabetical order		
-And User should add Modified Date Time criteria		
-Then User should select Time 		
-When User save the criteria should see criteria on saved search		
+Scenario: Creating New Items Negative																							
+And User clicks the create catolog items																									
+Then User should see the create catolog items page 																									
+Then User should have the following options to create products																									
+|Name|																									
+|Description|																									
+|Categories|																									
+|Status|																									
+|Type|																									
+|Price Frequency|																									
+|Sell Price Formula|																									
+|Cost|																									
+|List Price|																									
+|Sell Price|					
+
+Scenario:  Contact creation and validation	
+And User clicks on "Contacts" on the menu bar	
+Then User click on create button
+And User should type lastname "Obama"
+And User should see the created contact
+
 		
