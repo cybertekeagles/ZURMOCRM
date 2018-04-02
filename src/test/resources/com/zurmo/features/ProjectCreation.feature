@@ -20,8 +20,8 @@ Scenario: Check Created Project
 		|delete|
 		|clone|
    Then user logout from application				
-		
-		
+	
+	
 		
 		
 		
