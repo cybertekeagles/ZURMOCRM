@@ -4,7 +4,7 @@ Background:
 Given User logged into the Zurmo				
 And User clicks on leads on the menu bar				
 				
-Scenario: Creating Meeting fields			
+Scenario: Creating Meeting field			
 Then User go to the create Meeting 				
 And User should see the following titles				
 |Name|				

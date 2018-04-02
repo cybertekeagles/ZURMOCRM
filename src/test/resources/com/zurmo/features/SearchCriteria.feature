@@ -17,7 +17,7 @@ And User should be able to move following options from Hidden Colums to Visible 
 |Mobile Phone Number|		
 |Created Date Time|		
 |Job Title|		
-Then User should see updated leads information bar		
+Then User should see updated leads information ba	r	
 		
 Scenario: Creation of Items/Own		
 When User click Items/Own should see the field in alphabetical order		
