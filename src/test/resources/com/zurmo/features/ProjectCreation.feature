@@ -8,7 +8,7 @@ Scenario: Creating a Project
 		|Description	|
 		|Accounts|	
 		|Contacts|
-		|Status |	
+		|Status|	
 	Then User clicks save to create a project 
 	
 Scenario: Check Created Project 
