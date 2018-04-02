@@ -26,6 +26,8 @@ And User  should see the following menu options
 |Tasks|
 |Projects|
 And User chooses "Meetings"
+
+Scenario: Creatiog report by Name and Description
 And User should see the following filters
 |Category|
 |Created By User|

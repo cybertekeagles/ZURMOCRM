@@ -25,6 +25,8 @@ And User  should see the following menu options
 |Catalog Items|
 |Tasks|
 |Projects|
+Scenario: creatiog report by opportunities
+
 And User chooses "Opportunities"
 Then User chooses "Source"  and "Created Date Time"
 And User types to Name field "Derek " and clicks Save and Run  button
