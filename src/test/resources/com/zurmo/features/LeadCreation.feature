@@ -9,6 +9,7 @@ And User should see the following functionalities
 |Create|						
 |Update|						
 |Export|						
+
 |Delete|						
 |Subscribe|						
 |Merge|						
@@ -30,7 +31,7 @@ Then User should see following Industry in bar
 |Banking|						
 |Business Services|						
 |Energy|						
-|Financial Services|						
+|Financial Services|						 
 |Insurance|						
 |Manufacturing|						
 |Retail|						
